@@ -1,3 +1,7 @@
+from sqlalchemy import Column, String, Integer
+from database_setup import Base
+
+
 class Venue(Base):
     __tablename__ = 'venues'
     id = Column(Integer, primary_key=True)

@@ -1,3 +1,10 @@
+from sqlalchemy import Column, Integer, String, ForeignKey
+from sqlalchemy.orm import relationship
+from database_setup import Base
+
+
+
+
 class Concert(Base):
     __tablename__ = 'concerts'
     id = Column(Integer, primary_key=True)
