@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, declarative_base  # Updated import
+from sqlalchemy.orm import sessionmaker, declarative_base
 
-# Replace 'sqlite:///concerts.db' with your database URL if using another database
+# Database configuration
 DATABASE_URL = 'sqlite:///concerts.db'
 
 # Create a new SQLAlchemy engine instance
